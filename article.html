@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"> </script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/qna"> </script>
+
+    <title>Document</title>
+    <link rel="stylesheet" href="./article.css">
+</head>
+<body>
+    <textarea name="" id="article" cols="80" rows="30">
+        football is any of a number of games in which two opposing teams attempt to score points by moving an inflated oval or round ball past a goal line or into a goal. 
+        Differing greatly in their rules, these include soccer (association football) and rugby, in addition to the games covered in this article: American football, Canadian football, Gaelic football, and Australian football. 
+        In the United States, the word football generally refers only to the American game; in many other parts of the world it usually means soccer. 
+        Football, amateur and professional, is perhaps the most popular spectator sport in the United States, attracting a total attendance of over 40 million and watched by many more millions on television each year.
+        Most of the modern forms of football are derived from ancient games, especially harpaston and harpastrum, played in Greece and Rome. These survive today in Tuscany and Florence under the name calcio. 
+        Meanwhile a rugged, undisciplined type of football took root in the Middle Ages in England, where despite royal edicts banning the game from time to time, football remained popular until the early 19th cent. 
+        forms of the game soon developed at the various English public schools, including Rugby, Eton, and Harrow. Eventually, two main games emerged. One was primarily a kicking game, which later became association football, or soccer; the other (dating from 1823) was football as played at Rugby, in which carrying the ball and tackling were permitted.
+    </textarea>
+
+    <label for="question">Question</label>
+    <input type="text" name="" id="question"> <button onclick="done()" id="search">Search</button>
+
+    <h3>Answers</h3>
+    <div id="answer"></div>
+</body>
+</html>
+<script src="./article.js"></script>
